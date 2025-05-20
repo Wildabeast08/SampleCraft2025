@@ -1,6 +1,6 @@
-package com.yourname.yourmodid.registry;
+package com.wildabeast.yourmodid.registry;
 
-import com.yourname.yourmodid.YourModID;
+import com.wildabeast.yourmodid.wildacraft;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -8,9 +8,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-public class YMIBlocks {
+public class WCBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(YourModID.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(wildacraft.MOD_ID);
 
     //Blocks go here
 
@@ -20,7 +20,7 @@ public class YMIBlocks {
 
     private static DeferredBlock<Block> registerWithItem(String blockID, Supplier<? extends Block> sup) {
         DeferredBlock<Block> block = registerWithNoItem(blockID, sup);
-        YMIItems.ITEMS.registerSimpleBlockItem(block);
+        WCItems.ITEMS.registerSimpleBlockItem(block);
         return block;
     }
 
