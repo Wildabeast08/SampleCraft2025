@@ -1,6 +1,6 @@
-package com.wildabeast.yourmodid.registry;
+package com.wildabeast.wildacraft.registry;
 
-import com.wildabeast.yourmodid.wildacraft;
+import com.wildabeast.wildacraft.WildaCraft;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 
 public class WCBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(wildacraft.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(WildaCraft.MOD_ID);
 
     //Blocks go here
 

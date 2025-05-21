@@ -1,0 +1,42 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "wildacraft:item/fractured_ark"
+  },
+  "display": {
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 5, 0],
+      "scale":[ 1.2, 1.2, 1.2 ]
+    },
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 13, 7],
+      "scale":[ 1.2, 1.2, 1.2]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 55 ],
+      "translation": [ 0.35, 6, 1.3 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, 90, -55 ],
+      "translation": [ 0.35, 6, 1.3 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 25 ],
+      "translation": [ 1.1, 3.3, 1.1 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 90, -25 ],
+      "translation": [ 1.1, 3.3, 1.1 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "scale": [ 1.2, 1.2, 1.2 ]
+    }
+  }
+}

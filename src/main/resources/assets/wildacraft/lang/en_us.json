@@ -1,5 +1,14 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item"
+  "item.wildacraft.ark_of_cosmos": "Ark of the Cosmos",
+  "item.wildacraft.ark_of_elements": "Ark of the Elements",
+  "item.wildacraft.ark_of_ancients": "Ark of the Ancients",
+  "item.wildacraft.fractured_ark": "Fractured Ark",
+  "item.wildacraft.murasama_sword": "The True Murasama",
+  "item.wildacraft.sheathed_murasama_sword": "Sheathed Murasama",
+  "item.wildacraft.zenith_blade": "Zenith",
+  "item.wildacraft.deaths_ascension": "Death's Ascension",
+  "item.wildacraft.holy_collider": "Holy Collider",
+  "item.wildacraft.zenith_blade": "Zenith",
+  "item.wildacraft.zenith_blade": "Zenith",
+  "item.wildacraft.zenith_blade": "Zenith"
 }
